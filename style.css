@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    width: 100%;
+}
+
+header {
+    background-image: url("./images/bg-hero-desktop.svg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.header-wrapper {
+    width: 1280px;
+}
+
+header nav {
+    padding: 55px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .nav-right a {
+    color: var(--Very-Dark-Cyan);
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    padding: 15px 60px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px 2px hsla(192, 100%, 9%, 0.226);
+}
+
+header .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.hero .hero-right {
+    width: 690px;
+}
+
+.hero .hero-right img{
+    width: 100%;
+}
+
+.hero .hero-left {
+    width: 510px;
+}
+
+.hero .hero-left h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--Very-Dark-Cyan);
+    margin-bottom: 50px;
+}
+
+.hero .hero-left p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--Very-Dark-Cyan);
+    margin-bottom: 30px;
+}
+
+.hero .hero-left a {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--Pink);
+    padding: 20px 70px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px 2px hsla(192, 100%, 9%, 0.137);
+}
+
+main {
+    padding: 160px 0px 300px 0px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.section-wrapper {
+    box-shadow: 0px 0px 10px 2px hsla(192, 100%, 9%, 0.087);
+    border-radius: 10px;
+    width: 1280px;
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.section-wrapper div {
+    width: 480px;
+}
+
+.section-wrapper img {
+    width: 100%;
+}
